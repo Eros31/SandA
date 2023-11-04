@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $("#icon").click(function(){
+            $(".top-nav").toggleClass("active");
+          });
+        });
+    </script>
+
+</head>
+<body>
+    <header>
+    <div class="background-color">
+        <!--S&A Events Icon-->
+    <div class="navigation">
+        <div class="logo"><img src="logo.jpg" alt="S&A Events Catering Services"></div>
+        <div class="menu">
+            <i class="fa fa-align-justify" id="icon" style="color:black;font-size:25px"></i>
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="" >HOME</a></li>
+                <li><a href="" >ABOUT</a></li>
+                <li><a href="" >SERVICE</a></li>
+                <li><a href="" >CONTACT</a></li>
+                <li><a href="" >PACKAGE</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!--Welcome Text-->
+        <div class="main-content">
+            <div class="hero-text" id="hero-txt">
+                <span class="welcome">Welcome To</span>
+                <span class="name">S&A Events Catering Services</span>
+                <span class="founded">Founded at 2016 and now one of the best food catering <br> and events styling in the Philippines </span>
+            </div>
+        <!--Profile Link-->
+            <div class="profile">
+                <a>OUR PROFILE</a>
+            </div>>
+        <!--Social Media links-->
+            <div class="media-links">
+                <a href="https://www.facebook.com/SandAEventsCatering" target="_blank" class="fb"><i class="fa fa-facebook" id="social-links"></i></a>
+                <a href="" class="ig"><i class="fa fa-instagram" id="social-links"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="google"><i class="fa fa-google" id="social-links"></i></a>
+            </div>
+        </div>
+    </div>
+    </header>
+    <footer class="footer">
+        <div class="bottom-icon">
+            <img src="logo.jpg" alt="S&A Events Logo">
+        </div>
+        <div class="footer-item">
+            <h3 class="f-text">CONTACT INFO</h3>
+            <span>Address:</span>
+            <span class="contact-item">#84 Sampaguita Street. CAA</span>
+            <span>Phone:</span>
+            <span class="contact-one">(+63)977-1185-201</span>
+            <span>Email:</span>
+            <span>sandaeventssales@gmail.com</span>
+        </div>
+
+        <div class="footer-item">
+            <h3 class="f-text">NAVIGATION</h3>
+            <a href="" target="">Home</a>
+            <a href="" target="">About us</a>
+            <a href="" target="">Service</a>
+            <a href="" target="">Contact</a>
+            <a href="" target="">Package</a>
+        </div>
+
+        <div class="footer-item">
+            <h3 class="f-text">LIKE US</h3>
+            <a href="https://www.facebook.com/SandAEventsCatering" target="_blank" class="last-item">Facebook Page</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="last-item">GMAIL</a>
+        </div>
+    </footer>
+</body>
+</html>
